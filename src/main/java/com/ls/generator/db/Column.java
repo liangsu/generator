@@ -3,8 +3,14 @@ package com.ls.generator.db;
 import java.io.Serializable;
 
 import com.ls.generator.support.DataType;
+import com.ls.generator.util.TableUtils;
 
 public class Column implements DataType, Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8996338735717626421L;
+	
 	private String tableName;
 	private Integer columnId;
 	private String columnName;
@@ -82,5 +88,9 @@ public class Column implements DataType, Serializable{
 				+ ", dataType=" + dataType + ", dataLength=" + dataLength + ", dataPrecision=" + dataPrecision
 				+ ", dataScale=" + dataScale + ", nullable=" + nullable + ", dataDefault=" + dataDefault + ", comments="
 				+ comments + "]";
+	}
+	
+	public String getFullDataType(){
+		return TableUtils.getType(this);
 	}
 }

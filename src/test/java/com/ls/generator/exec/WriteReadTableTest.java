@@ -1,5 +1,6 @@
 package com.ls.generator.exec;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.junit.Assert;
@@ -39,5 +40,25 @@ public class WriteReadTableTest {
 				}
 			}
 		}
+	}
+	
+	/**
+	 * 生成数据库表的html页面
+	 */
+	@Test
+	public void testGeneraterTableHtml(){
+		List<Table> tables = WriteReadTable.readTableWithOtherFromFile();
+		for (Table table : tables) {
+			TableHtmlGenerator.generator(Arrays.asList(table));
+		}
+	}
+	
+	/**
+	 * 生成数据库表的html页面
+	 */
+	@Test
+	public void testGeneraterTableHtml2(){
+		List<Table> tables = WriteReadTable.readTableWithOtherFromFile();
+		TableHtmlGenerator.generator(tables);
 	}
 }

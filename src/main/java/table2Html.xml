@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root path="C:\\Users\\warhorse\\Desktop\\chm">
+
+	<dir name="OMC监控">
+		<table>MONITOR_MODULE</table>
+		<table>MONITOR_STATE</table>
+		<table>MONITOR_STATE_VALUE</table>
+		<table>MONITOR_PERF</table>
+		<table>MONITOR_KPI</table>
+		<table>MONITOR_KPI_INFO</table>
+	</dir>
+	
+	<dir name="专家库管理">
+		<table>EXPERT_APPLY_ITEM</table>
+		<table>EXPERT_APPLY</table>
+		<table>EXPERT_BANK</table>
+		<table>expert_select_role</table>
+	</dir>
+	
+	<dir name="价格库管理">
+		<table>ME_FORMULA_FUTURE_MATERIAL</table>
+		<table>ME_FUTURE_MATERIAL</table>
+		<table>ME_FUTURE_PRICE_CHANGE</table>
+		<table>ME_PURCHASEDIRS_FUTURE_MAP</table>
+		<table>ME_FORMULA_PARAMETERS</table>
+		<table>ME_PARAMETERS_VALUE</table>
+		<table>ME_CHANGE_ITEM</table>
+	</dir>
+	
+	<dir name="份额管理">
+		<table>CONTRACT_ADJUS_PRODUCT</table>
+		<table>CONTRACT_ADJUST_STAGE</table>
+		<table>CONTRACT_ADJUST_BASIC</table>
+		<table>R_ADJUST_PRODUCT</table>
+		<table>CONTRACT_ADJUST_NEW</table>
+		<table>ADJUST_STAGE_NEW</table>
+		<table>CONTRACT_ADJUST_TOTA</table>
+		<table>SHARE_DOWN_LOG</table>
+		<table>CONTRACT_PRODUCT_TYPE</table>
+		<table>CONTRACT_ADVANCE_SHARE</table>
+		<table>CONTRACT_SHARE_ADJUST</table>
+		<table>CONTRACT_SHARE_BASIC</table>
+		<table>R_SHARE_PRODUCT_TYPE</table>
+		<table>CONTRACT_SHARE_NEW</table>
+		<table>CONTRACT_ADVANCE_HISTORY</table>
+		<table>SHARE_ADJUST_ITEM</table>
+		<table>R_SHARE_BASIC_ADJUST</table>
+		<table>contract_share_new_add</table>
+		<table>CONTRACT_STAGE_SHARE</table>
+		<table>CONTRACT_STAGE_NEW</table>
+		<table>CONTRACT_SHARE_TOTAL</table>
+		<table>CONTRACT_SHARE_LOG</table>
+	</dir>
+	
+	<dir name="供应商主数据">
+		<table>PROVIDER_TAX_INFORMATION</table>
+		<table>PROVIDER_ACCOUNTS</table>
+		<table>PROVIDER_BIZ_MANS</table>
+		<table>PROVIDER_PARENT</table>
+		<table>PROVIDER_FINANCE</table>
+		<table>PROVIDER_BUSI_TYPE</table>
+		<table>PROVIDER</table>
+		<table>RELATION_PROVINCE</table>
+		<table>PROVIDER_MATERIALS</table>
+		<table>PROVIDER_CERTIFICATES</table>
+		<table>PROVIDER_HRS</table>
+		<table>PROVIDER_FREE_UNFREE</table>
+		<table>PROVIDER_HOLDERSTRUCTURE</table>
+		<table>PROVIDER_REG_TAX_INFORMATION</table>
+		<table>PROVIDER_REG_ACCOUNTS</table>
+		<table>PROVIDER_REG_BIZ_MANS</table>
+		<table>PROVIDER_PARENT_REG</table>
+		<table>PROVIDER_REG_FINANCE</table>
+		<table>UNIFLOW_COUNT_BY_MODEL</table>
+		<table>PROVIDER_REG_BUSI_TYPE</table>
+		<table>PROVIDER_REG</table>
+		<table>LA_REL_PERSON</table>
+		<table>PROVIDER_ACCOUNTS_BACKEND</table>
+		<table>RELATION_REG_PROVINCE</table>
+		<table>PROVIDER_REG_MATERIALS</table>
+		<table>PROVIDER_REG_CERTIFICATES</table>
+		<table>PROVIDER_REG_HRS</table>
+		<table>PROVIDER_ACCOUNTS_APPLY</table>
+		<table>PROVIDER_REG_HOLDERSTRUCTURE</table>
+		<table>PROVIDER_LOGIN_ADMIN_MODIFY</table>
+	</dir>
+	
+	<dir name="合同管理">
+		<table>CCONTRACT_INTAPP_SIGNCONFIG</table>
+		<table>ICT_SUPPLY_INFO_ITEM</table>
+		<table>CONT_MEDIA_MANAGEMENT_ITEM</table>
+		<table>CONT_PROVIDER_BANK_CG_REC</table>
+		<table>ICT_SUPPLY_INFO</table>
+		<table>CONT_MEDIA_MANAGEMENT</table>
+		<table>CONTRACT_PROVIDER</table>
+		<table>CONTRACT_PUR_RESULT</table>
+		<table>CONTRACT_CODES</table>
+		<table>CONTRACT_FINANCIAL_INFO</table>
+		<table>CONTRACT_SERVICE</table>
+		<table>CONTRACT_SIGN_COMPANY</table>
+		<table>CONTRACT</table>
+		<table>CONTRACT_ATTACHED</table>
+		<table>BPRESENTMANAGER</table>
+		<table>CONTRACT_PERFOR_RECORD</table>
+		<table>CONTRACT_PROJECT</table>
+		<table>CONTRACT_ITEM</table>
+		<table>GG_HT_TEMPLATE</table>
+		<table>CONT_PERFOR_COST_TYPE</table>
+		<table>CONTRACT_ITEM_PROJECT</table>
+		<table>CONTRACT_SUBKIND_TAXITEM</table>
+		<table>GG_HT_INTAPPSIGNDEPT</table>
+		<table>GG_HT_INTERNALAPPITEMS</table>
+		<table>CSIAGAREASCOPE</table>
+		<table>CONTRACT_PROVINCE_ITEM</table>
+		<table>PURCHASE_PROXY_MAINTAIN</table>
+		<table>CSIAGAREASCOPELIST</table>
+		<table>CONTRACT_ORDER_ITEM_CHANGE</table>
+	</dir>
+	
+	<dir name="基础数据">
+		<table>SYS_URL_MAPPING</table>
+		<table>R_PURCHASE_USERS</table>
+		<table>ADDRESS_BOOK</table>
+		<table>PROJECT_IMPLEMENT</table>
+		<table>SYSTEM_NOTICE</table>
+		<table>SYSTEM_NOTICE_CACATEGORY</table>
+		<table>PURCHASE_MANAGER_CHANGE_LOG</table>
+		<table>PURCHASE_DIRES</table>
+		<table>COMMON_MESSAGE</table>
+		<table>EPROVINCE</table>
+		<table>OPERATION_LOGS</table>
+		<table>DATA_DELETE_CONFIG</table>
+		<table>DIRES_TREE</table>
+		<table>NOTICE</table>
+		<table>MAP_MONEYWAYCODE</table>
+		<table>BIZ_CODE</table>
+		<table>CACHE_LOG</table>
+		<table>ID_SEQUNCE</table>
+		<table>USER_FORGET_PASSWORD</table>
+		<table>R_PURCHASE_MATERIAL</table>
+		<table>ATTACHMENTS</table>
+		<table>REPORT_JICAI</table>
+	</dir>
+	
+	<dir name="工作文件">
+		<table>WORK_FILE</table>
+	</dir>
+	
+	<dir name="成本利润中心">
+		<table>COST_CENTER</table>
+		<table>COMMON_BASIC_DATA</table>
+		<table>PROFIT_CENTER</table>
+		<table>MAP_PROFIT_ORGANIZATIONS</table>
+		<table>BANK_ID</table>
+	</dir>
+	
+	<dir name="报账管理">
+		<table>CONFIG_PROVINCE</table>
+		<table>PAYMENT_INVOICE_ITEM</table>
+		<table>PAYMENT_APPLY_ITEM</table>
+		<table>BIZ_CODE_TREE</table>
+		<table>PAYMENT_ABROGATE_CONSTRAINT</table>
+		<table>PAYMENT_APPLY</table>
+		<table>INVOICE</table>
+		<table>R_PAYWAY_VALUE</table>
+		<table>INVOICE_ORDER_ITEM</table>
+		<table>INVOICE_PURCHASE_ORDER</table>
+		<table>INSTANT_PAY</table>
+		<table>package_cost_item</table>
+		<table>INSTANT_PAY_PROVIDER</table>
+		<table>INSTANT_PAY_MATERIAL</table>
+		<table>ORDER_PACKAGE</table>
+		<table>INSTANT_PAY_SERVICE_PROVIDER</table>
+		<table>r_package_order</table>
+		<table>ORDER_PAY_PLAN_ITEM</table>
+	</dir>
+	
+	<dir name="接口配置模型">
+		<table>IF_POOL_HIS</table>
+		<table>IF_POOL</table>
+		<table>R_PROVINCE_AREA</table>
+		<table>IF_MAPPING</table>
+		<table>IF_MAPPING_HEADERS</table>
+		<table>IF_LOG</table>
+		<table>IF_MSG</table>
+		<table>IF_LOG_HIS</table>
+	</dir>
+	
+	<dir name="框架协议管理">
+		<table>FRAME_CONT_RECEIPT</table>
+		<table>FRAME_CONT_PROVIDER</table>
+		<table>FRAME_CONT_ITEM</table>
+		<table>FRAME_CONT</table>
+		<table>frame_cont_service</table>
+		<table>FRAME_CONT_ATTACHED</table>
+		<table>FRAME_CONT_USER</table>
+		<table>FRAME_CONT_RECEIPT_ADJUST</table>
+		<table>FRAME_CONT_PROVIDER_ADJUST</table>
+		<table>FRAME_CONT_ITEM_ADJUST</table>
+		<table>FRAME_CONT_ADJUST</table>
+		<table>frame_cont_service_adjust</table>
+		<table>FRAME_CONT_ATTACHED_ADJUST</table>
+	</dir>
+	
+	<dir name="流程管理">
+		<table>UNIFLOW_PROCESSES</table>
+		<table>UNIFLOW_PROCINSTS</table>
+		<table>UNIFLOW_CONDITION</table>
+		<table>UNIFLOW_ADDRESS</table>
+		<table>UNIFLOW_ADVICE</table>
+		<table>UNIFLOW_TASK</table>
+		<table>VIRTUAL_BUSI_TASK</table>
+	</dir>
+	
+	<dir name="物料主数据">
+		<table>MATERIAL_DIRES2</table>
+		<table>NAME_STANDARD</table>
+		<table>MATERIAL_DIRES</table>
+		<table>material_province</table>
+		<table>MATERIAL_APPLY</table>
+		<table>PERSONAL_PRODUCT</table>
+		<table>MODEL_ITEM</table>
+		<table>MATERIAL_RECEIPT</table>
+		<table>MATERIAL_RECEIPT_TASK</table>
+		<table>TASK_MATERIAL_ENTITY_RECEIPT</table>
+		<table>MATERIAL_ENTITY</table>
+		<table>TASK_BASE_MODEL</table>
+		<table>material_data</table>
+		<table>apply_material_province</table>
+		<table>MATERIAL_MODEL</table>
+		<table>MATERIAL_ENTITY_TYPE</table>
+		<table>TASK_BASEMODEL_ENTITY</table>
+		<table>apply_material_data</table>
+		<table>PI_PROVIDER_MATERIAL</table>
+		<table>TASK_MATERIAL_RECEIPT</table>
+	</dir>
+	
+	<dir name="系统管理">
+		<table>LOGIN_INFO</table>
+		<table>USERS</table>
+		<table>R_USERS_ROLES</table>
+		<table>ROLES</table>
+		<table>R_USER_ORGANIZATIONS</table>
+		<table>R_ROLES_AUTHORITIES</table>
+		<table>ORGANIZATIONS</table>
+		<table>AUTHORITIES</table>
+		<table>R_PURCHASE_DIRES</table>
+	</dir>
+	
+	<dir name="采购方案采购结果">
+		<table>TENDER_DELEGATE</table>
+		<table>PURCHASE_CASE_ITEM</table>
+		<table>ANNOUNCE_PROVIDER</table>
+		<table>NEGOTIATIONS_BULLETIN</table>
+		<table>PREQUALFICATION</table>
+		<table>PURCHASE_CASE</table>
+		<table>PREQUALIFY_ANNOUNCE</table>
+		<table>PREQUALIFY_ANNOUNCE_ITEM</table>
+		<table>TENDER_ANNOUNCEMENT</table>
+		<table>INQUIRY_NOTICE_ITEM</table>
+		<table>CLARIFY_NOTICE</table>
+		<table>PURCHASE_CASE_PROVIDER</table>
+		<table>INQUIRY_NOTICE</table>
+		<table>PURCHASE_CONTENT_ITEM</table>
+		<table>PURCHASE_RESULT_ITEM</table>
+		<table>PAYMENT_TERMS</table>
+		<table>PURCHASE_RESULT</table>
+		<table>PURCHASE_RESULT_PROVIDER</table>
+		<table>PROVIDER_QUOTE</table>
+		<table>RESULT_ANNOUNC</table>
+		<table>PROVIDER_QUOTE_ITEM</table>
+	</dir>
+	
+	<dir name="采购申请采购订单">
+		<table>PURCHASE_ORDER_ITEM</table>
+		<table>PUR_ORDER_SERVSUM_ITEM</table>
+		<table>PURCHASE_ORDER</table>
+		<table>PURCHASE_APPLY</table>
+		<table>PURCHASE_FEE_ITEM</table>
+		<table>PURCHASE_APPLY_ITEM</table>
+		<table>PUR_APPLY_FRAME_ITEM</table>
+		<table>PUR_APP_FRAME_ITEM_PROJECT</table>
+	</dir>
+	
+	<dir name="采购需求">
+		<table>COLLABORATION_UNIT</table>
+		<table>BUDGET_CHECK_SERIAL</table>
+		<table>PURCHASE_SERIAL</table>
+		<table>PURCHASE_REQUEST</table>
+		<table>PURCHASE_REQUEST_TURN</table>
+		<table>BUDGET_CHECK_RESULT</table>
+		<table>CP_REQ_ORDER_ITEM</table>
+		<table>CP_REQ_ORDER</table>
+		<table>PURCHASE_REQUEST_ITEM</table>
+		<table>PUR_REQ_ITEM_CHANGE_LIST</table>
+		<table>PURCHASE_REQ_ITEM_DETAIL</table>
+		<table>purchase_request_item_log</table>
+	</dir>
+	
+	<dir name="阳光点评">
+		<table>comment_model_purchase</table>
+		<table>COMMENT_EMBED_ITEM</table>
+		<table>COMMENT_UNIFLOW_GRADE</table>
+		<table>COMMENT_SECOND_LEVE</table>
+		<table>COMMENT_MODEL</table>
+		<table>COMMENT_GRADE</table>
+		<table>COMMENT_TASK</table>
+		<table>PROVIDER_COMPLAINT_REPLY</table>
+		<table>CONSULTATION_ITEM</table>
+		<table>ZB_MERCHANDISE</table>
+		<table>COMMENT_STRATEGY</table>
+		<table>ZB_MERCHANDISE_CATEGORY</table>
+		<table>COMMENT_FRIST_LEVE</table>
+		<table>COMMENT_MODEL_ITEM</table>
+		<table>COMMENT_GRADE_ITEM</table>
+		<table>COMMENT_COMPLAINT_REPLY</table>
+		<table>PROVIDER_COMPLAINT</table>
+		<table>PROVIDER_CONSULTATION</table>
+	</dir>
+</root>
